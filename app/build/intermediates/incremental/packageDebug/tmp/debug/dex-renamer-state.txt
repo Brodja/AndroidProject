@@ -1,0 +1,4 @@
+#Wed Apr 01 21:58:46 EEST 2020
+base.0=/home/brodja/AndroidStudioProjects/LabaAndroid/app/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

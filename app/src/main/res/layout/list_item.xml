@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/message_user"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/message_time" />
+
+    <com.daasuu.bl.BubbleLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:layout_marginTop="20dp"
+        app:bl_bubbleColor="@android:color/white"
+        app:bl_arrowDirection="left"
+        app:bl_arrowHeight="40dp"
+        app:bl_arrowPosition="16dp"
+        app:bl_arrowWidth="8dp"
+        app:bl_strokeWidth="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:id="@+id/message_text"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/primary_text_light"
+            android:layout_below="@+id/message_user"
+            android:textSize="18sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+             />
+    </com.daasuu.bl.BubbleLayout>
+
+</RelativeLayout>

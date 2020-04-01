@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "939071812657",
+    "firebase_url": "https://labaandroid-26250.firebaseio.com",
+    "project_id": "labaandroid-26250",
+    "storage_bucket": "labaandroid-26250.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939071812657:android:1f31c322a92246c6ec5110",
+        "android_client_info": {
+          "package_name": "com.example.labaandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939071812657-hgoa3ju9cvqd9otsrlv69ir042jjg44n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.labaandroid",
+            "certificate_hash": "881b75bfa1bda9bd9d304890818f35b09674cf35"
+          }
+        },
+        {
+          "client_id": "939071812657-usg5bb0a9fqij47089vfcgh41jvh3pp3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN4ep5x08SM0AcVrtWaoQsv54-i19yAWI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939071812657-usg5bb0a9fqij47089vfcgh41jvh3pp3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
